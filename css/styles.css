@@ -1,0 +1,683 @@
+
+
+/* RESET DEFAULT CSS */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 18px;
+	font: inherit;
+	vertical-align: baseline;
+    font-family: "Arvo",sans-serif;
+}
+
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+ol,ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+/* HELPER CLASS */
+
+.left {
+    float: left;
+}
+
+.right {
+    float: right;
+}
+
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arvo", sans-serif;
+}
+
+section {
+    padding: 40px;
+
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 0;
+    overflow: hidden;
+    text-align: center;
+
+}
+
+/*WELCOME SECTION*/
+.welcome {
+    background: url(../images/aras.jpg)no-repeat center center fixed;
+    height: 100vh;
+    padding: 0px;
+    background-size:cover;
+   
+    
+}
+  
+#papug {
+    height: 110px;
+    width: 70px;
+    margin-top: -30px;
+}
+
+nav li {
+    display: inline-block;
+    line-height: 40px;
+}
+
+.top-nav a{
+    font-size: 20px;
+    margin-right: 10px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    transition: 0.8s;
+    padding: 5px 15px;
+    
+    
+}
+.top-nav a:hover {
+    background-color: rgba(9, 190, 162, 0.55);
+    color: #4b0909;
+    transition: 0.8s;
+}
+/* Sticky navi */
+.sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90px;
+    background-color: #811231;
+    box-shadow: 0 2px 2px #efefef;
+    opacity: 0.8;
+    z-index: 9999;
+    padding-top: 30px;
+   
+    
+}
+
+/*end of sticky navi */
+h1 {
+    font-size: 140%;
+    font-weight: 700;
+    line-height: 50px;
+    margin-bottom: 40px;
+    z-index: 999;
+}
+h2{
+    letter-spacing: 5px;
+    font-weight: 700;
+    
+}
+h3 {
+    color: #1b0e60;
+    letter-spacing: 2px;
+    margin-top: 4px;
+    font-size: 95%;
+}
+.header-info {
+    text-align: center;
+    padding-top: 35px;
+    padding-bottom: 17px;
+    background: rgba(61, 169, 173, 0.4);
+}
+
+.cta-button {
+   position: absolute;
+    text-align: center;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 45px;
+    border-radius: 20px;
+    background-color: rgba(9, 190, 162, 0.55);
+    width: 200px;
+    height: 50px;
+    box-shadow: 0px 17px 10px -10px;
+}
+.cta-button:hover {
+    font-size: 120%;
+    box-shadow: 0px 27px 20px -20px;
+    background-color: rgb(22, 157, 136);
+    margin-top: 10px;
+    transition: 0.5s;
+    
+}
+/*SERVICES SECTION*/
+.services {
+    background: url(../images/orange.jpg);
+    background-size: cover;
+    
+}
+.row {
+     overflow: hidden;
+     margin:60px;
+     padding: 30px;
+ }
+.col-2-services {
+    width: 50%;
+    float: left;
+
+}
+.col-2-inner {
+    width: 50%;
+    float:left ;
+}
+.image{
+    width: 70%;
+    height: auto;
+
+}
+#cage{
+    width: 320px;
+    height: auto; 
+    opacity: 0;
+}
+
+
+i {
+    color: #f4bc04;
+    margin-bottom: 30px
+}
+.serv-para {
+    padding: 30px;
+    font-size: 90%;
+   
+    border-radius: 20px;
+    margin-left: 10px;
+
+}
+/*TEAM SECTION*/
+.team {
+    background: linear-gradient(to right, #C04848,#480048);
+}
+.team-row{
+   margin-top: 30px;
+    padding: 20px;
+    
+}
+.short-line{
+    width: 90px;
+    height: 4px;
+    background-color: #d35400;
+}
+.head-para {
+    position: relative;
+    margin:0 auto;
+    margin-top: 30px;
+
+    max-width: 500px;
+    
+}
+.col-4-team{
+    width: 25%;
+    float: left;
+}
+.round-img{
+    height: 200px;
+    width: 200px;
+   display: inline-block;
+    overflow: hidden;
+    border-radius: 20%;
+    margin-bottom: 20px;
+    
+}
+.team-para {
+    margin-top: 20px;
+    padding: 0 40px;
+}
+.social-services{
+  margin-top: 20px;
+    padding: 10px;
+}
+
+
+.col-4-team:nth-of-type(2) .social-services{
+    margin-top: 75px;
+}
+/*OTHER SECTION*/
+.other{
+    background-image: linear-gradient(rgb(8, 8, 8), rgba(0, 0, 0, 0.2)),url(../images/forest.jpg);
+height: 600px;
+    background-size: cover;
+     background-attachment: fixed;
+    position: relative;
+    padding: 30px;
+}
+.hero-text-box,
+.hero-text-box:before{
+    position: absolute;
+    width:100%;
+    height: 320px;
+    bottom: 0px;
+    left: 0px;
+    padding: 30px;
+    background:inherit;
+    background-attachment: fixed;
+}
+.hero-text-box:before{
+    content: "";
+    top: 0;
+    height: 100%;
+    filter: blur(18px);
+    
+}
+.different {
+    text-transform: uppercase;
+    margin-top: 50px;
+    font-size: 170%;
+    color: #c1ff79;
+    letter-spacing: 3px;
+    line-height: 70px;
+    position: absolute;
+}
+.picture {
+    position: absolute;
+    margin-left: 70%;
+    margin-top: 30%;
+    color: green;  
+}
+/*ANIMALS SECTION*/
+.animals{
+   background: linear-gradient(to left, #52c234, #061700);
+}
+span {
+    font-size: 120%;
+    color: #18f229;
+    margin: 10px;
+}
+.animals-showcase {
+    list-style: none;
+    overflow: hidden;
+    margin-right: 5px;}
+
+.animals-showcase li {
+   display: block;
+    float: left;
+    width: 30%;
+    height: 350px;
+    margin:10px;
+}
+
+.animal-photo {
+    overflow: hidden;
+    position: relative;
+    border-radius: 30px;
+}
+.animal-photo img {
+    width: 100%;
+    height: 300px;
+}
+
+.layer-bottom{
+    transition: 2s;
+}
+
+.animal-photo:hover .layer-bottom {
+    opacity: 0.5;
+    -webkit-transform: scale(1.03);
+    -ms-transform: scale(1.03);
+    transform: scale(1.15);
+    
+}
+.animal-photo:hover .text{
+    opacity: 1;
+    z-index: 999;
+    transform: translate(50px,50px) rotate(10deg)
+    
+}
+.text{
+    position: absolute;
+    width: 80%;
+    height: auto;
+    margin:5%;
+    padding: 10px;
+    font-size: 25px;
+    color: aliceblue;
+    background-color: #433939;
+    opacity: 0;
+    transition:  1s ease-in-out 0s;
+    box-shadow: 5px 5px 5px #000000;
+
+
+}
+/*CONTACT SECTION*/
+#contact{
+    background-color: #c9bd2e;
+}
+.contact-form{
+    position: relative;
+    margin: 0 auto;
+    padding: 40px;
+   border: 1px solid #795a5a;
+    box-shadow: 6px 6px 6px #795a5a;
+}
+.row-form {
+    overflow: hidden;
+    margin:10px;
+    padding: 10px;
+}
+.col-1-contact{
+    width: 25%;
+    float: left;
+
+}
+.col-2-contact{
+    width: 75%;
+    float: left;
+}
+footer {
+    background-color: #433f40;
+    padding-bottom: 20px;
+}
+.container-footer {
+    max-width: 1100px;
+    margin: 0 auto;
+    color: #ffc607;
+
+    overflow: hidden;
+    text-align: center;
+}
+
+.col-1-footer,
+.col-2-footer {
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.col-1-footer {
+    float: left;
+}
+
+.col-2-footer {
+    float: right;
+}
+
+.col-1-footer li,
+.social-links li {
+ display: inline-block;
+    margin-right: 10px;
+    padding: 5px; 
+}
+.social-links li {
+  margin-bottom: -40px;  
+}
+.content-footer {
+    margin-left: 50%;
+    transform: translate(-50%);
+    text-align: center;
+    font-size: 90%;
+    
+}
+
+/* MEDIA QUERIES*/
+
+@media  screen and (max-width: 850px) {
+
+    nav li {
+        line-height: 30px;
+        padding: 10px;
+    }
+    h1 {
+        font-size: 120%;
+        margin-bottom: 30px;
+    }
+    h2{
+        letter-spacing: 3px;
+
+    }
+    h3 {
+        color: #1b0e60;
+        letter-spacing: 2px;
+        margin-top: 4px;
+        font-size: 75%;
+    }
+    .top-nav a{
+        font-size: 16px;
+        margin-right: 5px;
+
+        padding: 5px 5px;}
+
+    .sticky {
+        padding-top: 20px;
+        font-weight: bold;
+    }
+
+    #papug {
+        display: none;
+    }
+
+    .image{
+        width: 70%;
+        height: auto;
+        margin-bottom: 40px;
+
+    }
+    #cage{
+        width: 200px;
+    }
+
+    .container{
+        padding:0px;
+    }
+    .image {
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .col-2-services{
+        width: 100%;
+    }
+    .col-2-services:nth-child(1){
+        margin-top: 0px;
+    }
+    .col-2-inner{
+        width: 50%;
+        float: left;
+    }
+
+    .col-4-team{
+        width: 50%;
+        height: 600px;
+        float: left;
+    }
+    .round-img{
+        max-height: 100%;
+        max-width: 100%;
+        border-radius: 50%;
+        margin-bottom: 10px;
+
+
+    }
+    .team-para {
+        margin-top: 20px;
+        padding: 0 40px;
+    }
+
+
+    .animals-showcase li {
+        width: 50%;
+        height: 280px;
+        margin:0;
+        float: left;
+
+    }
+
+    .animal-photo {
+        width: 300px;
+        height: 250px;
+    }
+
+    .animal-photo:hover .text{
+        opacity: 1;
+        z-index: 999;
+    }
+    .text{
+        width: 200px;
+        height: 130px;
+        overflow: hidden;
+        margin:5%;
+        padding: 5px;
+        font-size: 16px;
+    }
+}
+
+@media  screen and (max-width: 750px) {
+
+    .animal-photo {
+        width: 270px;
+        height: 220px;
+    }
+
+
+
+}
+
+
+@media  screen and (max-width: 610px) {
+
+  
+    nav li {
+        
+        padding: 5px;
+    }
+    .top-nav a{
+        
+        margin: 0 0 0 5px;
+
+        padding:0;
+    }
+
+    section{
+        padding: 8px;
+    }
+    .container {
+    max-width: 610px}
+
+
+    .row {
+        overflow: hidden;
+        margin:1px;
+        padding: 1px;
+    }
+
+    .services {
+        height: auto;
+    }
+    .col-2-inner{
+        width: 100%;}
+
+        .col-4-team{
+            width: 100%;
+            
+        }
+
+.hero-text-box:before{
+    content: "";
+    top: 0;
+    height: 80%;
+    filter: blur(15px);
+    
+}
+
+    .animals-showcase li {
+        width: 100%;
+        margin: 10px 0 10px;
+
+    }
+    .animals-showcase li:last-child{
+        margin-bottom: 70px;
+    }
+    .animal-photo {
+        width: 320px;
+        height: 280px;
+        margin:30px auto;
+    }
+
+    .row-form {
+        overflow: hidden;
+        margin:0px;
+        padding: 0px;
+    }
+    .col-1-contact{
+        width: 100%;
+        float: none;
+        margin-bottom:5px;
+
+    }
+    .col-2-contact{
+        width: 100%;
+        float: none;
+        margin-bottom:15px;
+    }
+input [type="submit"]{
+    margin-top:40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
